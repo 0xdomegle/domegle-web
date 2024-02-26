@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.heroBackground {
+    background-image: url("https://cdn.midjourney.com/01f9c281-ff73-425a-83c6-fb8308894399/0_0.webp");
+}
