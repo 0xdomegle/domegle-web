@@ -1,3 +1,23 @@
+interface IRoute {
+  path: string;
+  label: string;
+}
+
+export const navLinks: IRoute[] = [
+  {
+    path: "about",
+    label: "About",
+  },
+  {
+    path: "token",
+    label: "Get Token",
+  },
+  {
+    path: "docs",
+    label: "Docs",
+  },
+];
+
 export const about = `We're on a mission to shake up the online world with a cool new
 project that takes a page from Omegle's book but twists it with some
 blockchain magic. Imagine a space where you can chat away
@@ -13,7 +33,7 @@ remains yours, and communities flourish without restraint. With the
 introduction of NFTs, we're not just talking about secure chats;
 we're talking about unlocking special features like gender matching
 or precise hashtag searches, all while preserving your connections
-for the future through the unique capabilities of NFTs.
+for the future through the unique capabilities of NFTs. <br/> <br/>
 
 We're redefining what it means to connect online, aiming for a world
 where privacy, security, and user empowerment are not just ideals

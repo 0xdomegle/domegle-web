@@ -4,6 +4,8 @@ import App from "./App.tsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./screens/home.tsx";
+import About from "./screens/about.tsx";
+import Token from "./screens/token.tsx";
 
 const Router = createBrowserRouter([
   {
@@ -11,9 +13,9 @@ const Router = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/", element: <Home /> },
-      { path: "about", element: <div>About</div> },
-      { path: "mint-nft", element: <div>Mint NFT</div> },
-      { path: "paper-work", element: <div>Paper Work</div> },
+      { path: "about", element: <About /> },
+      { path: "token", element: <Token /> },
+      { path: "docs", element: <div>Docs</div> },
     ],
   },
 ]);
