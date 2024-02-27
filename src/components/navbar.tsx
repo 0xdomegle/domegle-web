@@ -13,7 +13,11 @@ export default function Navbar() {
   return (
     <nav className="bg-white py-5 absolute w-full flex flex-col md:flex-row bg-transparent justify-start md:justify-between items-center px-12 pt-5 z-40">
       <div className="flex justify-between w-full md:w-max">
-        <Link to={"/"} className="cursor-none">
+        <Link
+          to={"/"}
+          className="cursor-none"
+          onClick={() => setIsMenuClose(true)}
+        >
           <h1 className="text-2xl font-bold">Domegle</h1>
         </Link>
         <button

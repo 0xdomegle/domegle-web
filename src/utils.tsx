@@ -18,6 +18,24 @@ export const navLinks: IRoute[] = [
   },
 ];
 
+export const aboutUs = `We're on a mission to totally shake up the online scene, taking
+inspiration from Omegle but adding a twist with some blockchain
+wizardry. Picture this: a place where you can chat away anonymously,
+but now it's supercharged with webRTC's peer-to-peer connections,
+ditching the need for central servers and letting you express yourself
+away from prying eyes. But hey, it's not just about chatting. We're
+dreaming way bigger, aiming to flip the script on social platforms by
+creating a digital world where you call the shots, keep your data to
+yourself, and let communities thrive without limits. And instead of
+NFTs, we're now all about using our own tokens to unlock cool features
+like gender matching or super specific hashtag searches, keeping your
+connections safe for the future. We're redefining online connections,
+aiming for a place where privacy, security, and empowering users
+aren't just goals but the real deal. As we dive into mixing
+blockchain, webRTC, and our own tokens, we're cooking up something
+groundbreaking. So, jump on board as we head towards a more inclusive,
+secure, and user-driven digital universe.`;
+
 export const about = `We're on a mission to shake up the online world with a cool new
 project that takes a page from Omegle's book but twists it with some
 blockchain magic. Imagine a space where you can chat away
