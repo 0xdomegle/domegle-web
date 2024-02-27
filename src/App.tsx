@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 
 function App() {
   const [mousePosition, setMousePosition] = useState({ x: -105, y: -105 });
-  const [cursorHover, setCursorHover] = useState(false);
 
   useEffect(() => {
     window.addEventListener("mousemove", (e) => {
