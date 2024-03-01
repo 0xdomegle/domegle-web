@@ -13,13 +13,13 @@ function App() {
     });
   }, []);
   return (
-    <div className="overflow-y-hidden cursor-none">
+    <div className="overflow-y-hidden cursor-none select-none">
       <motion.div
         variants={{
           default: { x: mousePosition.x, y: mousePosition.y },
         }}
         animate="default"
-        className="bg-black h-8 w-8 rounded-full z-50  absolute hidden xl:block"
+        className="bg-black h-5 w-5 rounded-full z-50  absolute hidden xl:block"
       ></motion.div>
       <Navbar />
       <Outlet />

@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { navLinks } from "../utils";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { HomeAnimation } from "../animation/homeAnimation";
 
 export default function Navbar() {
   const [isMenuClose, setIsMenuClose] = useState(true);
@@ -37,7 +39,31 @@ export default function Navbar() {
           )}
         </button>
       </div>
-      <div
+      <motion.div
+        variants={{}}
+        className={`h-dvh -mt-20 md:mt-0 -z-20 md:h-max w-full md:w-max flex flex-col md:flex-row gap-12 md:gap-10 justify-center md:justify-between items-center`}
+      >
+        <ul className="flex flex-col md:flex-row gap-10 md:gap-8 items-center text-4xl md:text-base">
+          {navLinks.map((item, index) => (
+            <Link
+              to={item.path}
+              key={index}
+              onClick={() => setIsMenuClose(true)}
+              className="cursor-none hover:font-bold transition-all duration-300"
+            >
+              <li>
+                <HomeAnimation text={item.label} />
+              </li>
+            </Link>
+          ))}
+        </ul>
+
+        <button className="flex items-center gap-2 border-2 border-black py-3 px-5 rounded-lg text-xs md:text-base hover:bg-black hover:text-white text-black duration-300 cursor-none">
+          <p>Enter Domegle</p>
+          <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+        </button>
+      </motion.div>
+      {/* <div
         className={`z-50 mt-5 md:mt-0 rounded-2xl ${
           isMenuClose ? "hidden" : "unset"
         } md:flex  flex-col md:flex-row gap-10 w-full md:w-max px-10 py-10 md:p-0 bg-white border-2 border-black md:border-0   md:bg-transparent items-start md:items-center text-black md:text-white`}
@@ -60,7 +86,7 @@ export default function Navbar() {
           <p>Enter Domegle</p>
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </button>
-      </div>
+      </div> */}
     </nav>
   );
 }
