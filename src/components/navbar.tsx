@@ -39,8 +39,22 @@ export default function Navbar() {
           )}
         </button>
       </div>
-      <motion.div
-        variants={{}}
+
+      {/* <motion.div
+        variants={{
+          init: { scaleY: 0 },
+          animate: {
+            scaleY: 1,
+            transition: { duration: 0.5, ease: [0.12, 0, 0.39, 0] },
+          },
+          exit: {
+            scaleY: 0,
+            transition: { duration: 0.5, ease: [0.12, 0, 0.39, 1] },
+          },
+        }}
+        initial="init"
+        animate={isMenuClose ? "init" : "animate"}
+        exit="exit"
         className={`h-dvh -mt-20 md:mt-0 -z-20 md:h-max w-full md:w-max flex flex-col md:flex-row gap-12 md:gap-10 justify-center md:justify-between items-center`}
       >
         <ul className="flex flex-col md:flex-row gap-10 md:gap-8 items-center text-4xl md:text-base">
@@ -62,8 +76,9 @@ export default function Navbar() {
           <p>Enter Domegle</p>
           <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
         </button>
-      </motion.div>
-      {/* <div
+      </motion.div> */}
+
+      <div
         className={`z-50 mt-5 md:mt-0 rounded-2xl ${
           isMenuClose ? "hidden" : "unset"
         } md:flex  flex-col md:flex-row gap-10 w-full md:w-max px-10 py-10 md:p-0 bg-white border-2 border-black md:border-0   md:bg-transparent items-start md:items-center text-black md:text-white`}
@@ -82,11 +97,13 @@ export default function Navbar() {
             </Link>
           ))}
         </ul>
-        <button className="flex gap-2 border-2 text-xs md:text-base mt-10 md:mt-0 border-black hover:bg-black hover:text-white text-black px-3 py-3 rounded-lg items-center duration-300 cursor-none hover:mix-blend-difference">
-          <p>Enter Domegle</p>
-          <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-        </button>
-      </div> */}
+        <Link to={"https://app.0xdomegle.com"}>
+          <button className="flex gap-2 border-2 text-xs md:text-base mt-10 md:mt-0 border-black hover:bg-black hover:text-white text-black px-3 py-3 rounded-lg items-center duration-300 cursor-none hover:mix-blend-difference">
+            <p>Enter Domegle</p>
+            <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+          </button>
+        </Link>
+      </div>
     </nav>
   );
 }
