@@ -7,8 +7,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { navLinks } from "../utils";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { HomeAnimation } from "../animation/homeAnimation";
 
 export default function Navbar() {
   const [isMenuClose, setIsMenuClose] = useState(true);
