@@ -1,6 +1,17 @@
+import {
+  faGithub,
+  faInstagram,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
 interface IRoute {
   path: string;
   label: string;
+}
+
+interface Social {
+  icon: IconDefinition;
+  link: string;
 }
 
 export const navLinks: IRoute[] = [
@@ -15,6 +26,23 @@ export const navLinks: IRoute[] = [
   {
     path: "docs",
     label: "Docs",
+  },
+];
+
+import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+
+export const socialMedia: Social[] = [
+  {
+    icon: faXTwitter,
+    link: "https://x.com/0xdomegle",
+  },
+  {
+    icon: faInstagram,
+    link: "https://instagram.com/0xdomegle",
+  },
+  {
+    icon: faGithub,
+    link: "https://github.com/0xdomegle",
   },
 ];
 
