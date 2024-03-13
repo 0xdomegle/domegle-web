@@ -1,63 +1,55 @@
-# Terms and Conditions for Domegle
+# Terms of Service for 0xdomegle
 
-**Last Updated: [Date]**
+## Introduction
 
-Welcome to Domegle, a pioneering platform in the blockchain space, offering secure and anonymous video chat services enhanced by the use of proprietary tokens. By accessing or using our services, you agree to be bound by these Terms and Conditions (T&C). If you do not agree with any part of these T&C, you are prohibited from using our services.
+Welcome to 0xdomegle ("we", "us", "our"). By accessing and using our video chatting platform, you agree to comply with and be bound by the following terms and conditions.
 
-## Interpretation and Definitions
+## Eligibility
 
-### Interpretation
+You must be at least 18 years of age or the age of majority in your jurisdiction to use our services, whichever is higher.
 
-The words in which the initial letter is capitalized have meanings defined under the following conditions. These definitions shall have the same meaning regardless of whether they appear in singular or plural form.
+## Account Registration
 
-### Definitions
+You agree to provide accurate and complete information when creating an account and to keep that information up to date.
 
-For the purposes of these T&C:
+## Privacy Policy
 
-- **Affiliate** means an entity that controls, is controlled by, or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest, or other securities entitled to vote for the election of directors or other managing authority.
+Our [Privacy Policy](./privacy-policy.md) outlines the collection, use, and sharing of personal information.
 
-- **Country** refers to India, United States.
+## Acceptable Use
 
-- **Company** (referred to as either "the Company", "We", "Us", or "Our" in this Agreement) refers to Domegle, Inc., [Your Address], Delaware, United States.
+You agree not to use the service for any unlawful purpose or in any way that interrupts, damages, or impairs the service.
 
-- **Device** means any device that can access the Service, such as a computer, cellphone, or digital tablet.
+## Intellectual Property
 
-- **Feedback** means feedback, innovations, or suggestions sent by You regarding the attributes, performance, or features of our Service.
+All content and software on or related to the service are the property of 0xdomegle or our licensors and protected by copyright and intellectual property laws.
 
-- **Service** refers to the Website and the application operated by Domegle.
+## User Contributions
 
-- **Terms and Conditions** (also referred to as "Terms") mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service.
+By posting content on our platform, you grant us a non-exclusive, royalty-free license to use, reproduce, and distribute such content.
 
-- **Third-party Social Media Service** means any services or content (including data, information, products, or services) provided by a third-party that may be displayed, included, or made available by the Service.
+## Disclaimers
 
-- **Website** refers to Domegle, accessible from [https://0xdomegle.com]
-
-- **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
-
-- **Tokens** refer to the proprietary digital tokens used within Domegle to unlock special features, access services, or facilitate transactions on the platform.
-
-## Acknowledgment
-
-These T&C govern the use of Domegle and the agreement that operates between You and the Company. By accessing or using the Service, You agree to be bound by these T&C.
-
-## Your Access to and Use of the Service
-
-- You must be over the age of 18 to use Domegle. The Company does not permit those under 18 to use the Service.
-
-- Your use of the Service is also conditioned on Your acceptance of and compliance with the Privacy Policy of the Company.
-
-## Tokens
-
-- Domegle uses proprietary tokens as a medium for transactions within the platform. You acknowledge the need to acquire these tokens to access certain features or services.
+The service is provided on an "as is" and "as available" basis without any warranties of any kind.
 
 ## Limitation of Liability
 
-- The Company's liability is limited as described in the "Limitation of Liability" section.
+We shall not be liable for any indirect, incidental, or consequential damages resulting from the use or inability to use the service.
+
+## Termination
+
+We reserve the right to terminate or suspend your account for any breach of these terms.
+
+## Changes to Terms
+
+We may modify these terms at any time. Your continued use of the service constitutes acceptance of those changes.
 
 ## Governing Law
 
-- These T&C shall be governed by the laws of the Country, excluding its conflicts of law rules.
+These terms are governed by the laws of [Your Country/State].
 
-## Changes to These Terms and Conditions
+## Contact Us
 
-- We reserve the right to modify or replace these T&C at any time, as described in the "Changes to These Terms and Conditions" section.
+For any questions about these terms, please contact us via:
+
+- Email: info@0xdomegle.com

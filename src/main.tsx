@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./screens/home.tsx";
 import About from "./screens/about.tsx";
 import Token from "./screens/token.tsx";
+import Docs from "./screens/docs.tsx";
 
 const Router = createBrowserRouter([
   {
@@ -15,7 +16,7 @@ const Router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "about", element: <About /> },
       { path: "token", element: <Token /> },
-      { path: "docs", element: <div>Docs</div> },
+      { path: "docs", element: <Docs /> },
     ],
   },
 ]);
