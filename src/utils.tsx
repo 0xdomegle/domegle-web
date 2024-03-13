@@ -1,4 +1,5 @@
 import {
+  IconDefinition,
   faGithub,
   faInstagram,
   faXTwitter,
@@ -24,12 +25,21 @@ export const navLinks: IRoute[] = [
     label: "Get Token",
   },
   {
-    path: "docs",
+    path: "https://docs.0xdomegle.com/",
     label: "Docs",
   },
 ];
 
-import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+export const footerLinks: IRoute[] = [
+  {
+    label: "Terms & Condition",
+    path: "https://docs.0xdomegle.com/terms-of-service-for-0xdomegle",
+  },
+  {
+    label: "Privacy Policy",
+    path: "https://docs.0xdomegle.com/privacy-notice-for-domegle",
+  },
+];
 
 export const socialMedia: Social[] = [
   {

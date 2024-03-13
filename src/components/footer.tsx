@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { socialMedia } from "../utils";
+import { footerLinks, socialMedia } from "../utils";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -8,20 +9,11 @@ export default function Footer() {
         <p className="text-xs md:text-base">
           © 2024 Domegle | Brew at <span className="font-bold">BitBrewLab</span>
         </p>
+        <p className="text-xs">
+          contact us at <span className="font-bold">info@0xdomegle.com</span>
+        </p>
       </div>
       <div className="flex flex-col md:items-end items-center gap-3">
-        <ul className="flex md:items-center gap-8">
-          {["Terms & Condition", "Privacy Policy", "Feedback"].map(
-            (item, index) => (
-              <li
-                className="hover:font-bold duration-300 transition-all text-xs md:text-base"
-                key={index}
-              >
-                {item}
-              </li>
-            )
-          )}
-        </ul>
         <div className=" flex gap-5 text-2xl">
           {socialMedia.map((icon) => (
             <a href={icon.link} className="cursor-none">
@@ -29,6 +21,16 @@ export default function Footer() {
             </a>
           ))}
         </div>
+        <ul className="flex md:items-center gap-5">
+          {footerLinks.map((link, index) => (
+            <li
+              className="hover:font-bold duration-300 transition-all text-xs "
+              key={index}
+            >
+              <Link to={link.path}>{link.label}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   );
