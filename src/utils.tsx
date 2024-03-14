@@ -1,6 +1,6 @@
 import {
   IconDefinition,
-  faGithub,
+  // faGithub,
   faInstagram,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
@@ -50,10 +50,10 @@ export const socialMedia: Social[] = [
     icon: faInstagram,
     link: "https://instagram.com/0xdomegle",
   },
-  {
-    icon: faGithub,
-    link: "https://github.com/0xdomegle",
-  },
+  // {
+  //   icon: faGithub,
+  //   link: "https://github.com/0xdomegle",
+  // },
 ];
 
 export const aboutUs = `We're on a mission to totally shake up the online scene, taking
