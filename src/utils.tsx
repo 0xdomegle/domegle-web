@@ -1,6 +1,6 @@
 import {
   IconDefinition,
-  faGithub,
+  // faGithub,
   faInstagram,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
