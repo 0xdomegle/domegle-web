@@ -39,6 +39,10 @@ export const footerLinks: IRoute[] = [
     label: "Privacy Policy",
     path: "https://docs.0xdomegle.com/privacy-notice-for-domegle",
   },
+  {
+    label: "Feedback",
+    path: "https://3dzv780u81j.typeform.com/to/dcaoQ8yG",
+  },
 ];
 
 export const socialMedia: Social[] = [
